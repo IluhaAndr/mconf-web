@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150416210956) do
+ActiveRecord::Schema.define(version: 20150521171319) do
 
   create_table "activities", force: true do |t|
     t.integer  "trackable_id"
@@ -396,6 +396,9 @@ ActiveRecord::Schema.define(version: 20150416210956) do
     t.boolean  "local_auth_enabled",             default: true
     t.string   "ldap_principal_name_field"
     t.string   "visible_locales",                default: "---\n- en\n- pt-br\n"
+    t.boolean  "certificate_login_enabled"
+    t.string   "certificate_id_field"
+    t.string   "certificate_user_id_field"
   end
 
   create_table "spaces", force: true do |t|
