@@ -385,6 +385,13 @@ en:
   cancel: Cancel
   caption: 
     add: "Add a caption"
+  certificate_authentication:
+    error:
+      disabled: Certificate login is not enabled
+      verify: The certificate you have installed is invalid
+      not_found: Your certificate is valid but there's no user associated with it
+      certificate: You have no certificate installed in your browser
+    success: Succesfully logged in via certificate
   chat: 
     add: "Add User"
     connecting_error_message: "Error while connecting"
@@ -622,6 +629,7 @@ en:
         login:
           default: "Sign in to your account"
           federation: "Login via federation"
+          certificate: "Login via client certificate"
         lost_password: "Lost your password?"
         other_options: "Other options"
         register: "Create a new account"
@@ -709,6 +717,7 @@ en:
       headline: "A global scalable opensource multiconference system for web and mobile devices"
       login:
         federation: "Login via federation"
+        certificate: "Login via client certificate"
         lost_password: "Lost your password?"
         title: "Sign in to your account"
         resend_confirmation_email: "Resend confirmation email"

@@ -51,4 +51,7 @@
     = f.input :require_registration_approval, :as => :boolean
     = f.input :local_auth_enabled, :as => :boolean
     = f.input :events_enabled, :as => :boolean
+    = f.input :certificate_login_enabled, as: :boolean
+    = f.input :certificate_id_field, as: :string
+    = f.input :certificate_user_id_field, as: :string
   = f.button :wrapped, :cancel => site_path, :value => t("_other.save")

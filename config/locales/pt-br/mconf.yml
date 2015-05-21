@@ -385,6 +385,13 @@ pt-br:
   cancel: Cancelar
   caption:
     add: "Adicionar legenda"
+  certificate_authentication:
+    error:
+      disabled: O login por certificado está desabilitado
+      verify: O certificado instalado em seu computador é inválido
+      not_found: "O seu certificado é válido, mas não está associado a nenhum usuário registrado."
+      certificate: Você não tem nenhum certificado instalado em seu computador.
+    success: Acesso bem sucedido via certificado
   chat:
     add: "Adicionar Usuário"
     connecting_error_message: "Erro conectando"
@@ -622,6 +629,7 @@ pt-br:
         login:
           default: "Acessar a sua conta"
           federation: "Acesso via federação"
+          certificate: "Acesso via certificado"
         lost_password: "Esqueceu sua senha?"
         other_options: "Outras opções"
         register: "Criar uma nova conta"
@@ -709,6 +717,7 @@ pt-br:
       headline: "Um sistema global e escalável de código aberto para multiconferência web e em dispositivos móveis"
       login:
         federation: "Acesso via federação"
+        certificate: "Acesso via certificado"
         lost_password: "Esqueceu a sua senha?"
         title: "Acessar a sua conta"
         resend_confirmation_email: "Reenviar e-mail de confirmação"

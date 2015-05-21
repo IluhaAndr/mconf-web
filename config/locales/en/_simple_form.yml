@@ -25,6 +25,9 @@ en:
         users: "Search people by name or email. If you can't find them, just add their email address. Type and press enter to insert a new item."
       site:
         analytics_code: "Code for your Google Analytics account. Leave it blank to disable. Example: \"UA-12345678-9\""
+        certificate_login_enabled: "Enable users to login via certificates installed in their browsers"
+        certificate_id_field: "The attribute field used in the certificate to identify the user"
+        certificate_user_id_field: "The field used in the user model to identify the user"
         domain: "The domain of your website. Do not include the protocol (e.g. \"http\"), only the full domain. Example: \"my-server.org/web-portal\""
         events_enabled: "Enable or disable the event module. To enable it, you must have the event module installed. Restart the application to apply the changes."
         exception_notifications: "Send notification emails whenever the application crashes"
